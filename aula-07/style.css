@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+body{
+    background-image: url(https://imagens.brasil.elpais.com/resizer/FeNn2ArbZ6ax9kb8r4uw0iR8i8I=/1960x0/arc-anglerfish-eu-central-1-prod-prisa.s3.amazonaws.com/public/GI3PMQY6R6G2FUUFOUP4WP4KDE.jpg);
+    width: 100%;
+    height: 100%;
+}
+
+button{
+    width: 50x;
+    height: 50px;
+    border: solid 3px green;
+}
+  
+
