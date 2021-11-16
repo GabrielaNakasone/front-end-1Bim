@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Estonia&family=Open+Sans:wght@300;400;700&family=Poppins:wght@200;300;400&family=Roboto:wght@100;300;500;700&family=Shippori+Antique+B1&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background-image: url(https://amanha.com.br/images/p/11913/b2ap3_large_Vista-do-Jardim-Botnico-em-Curitiba.jpg );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+h1{
+    color: #506D84 ;
+    font-family: 'Estonia', cursive;
+    font-size: 50px;
+    text-align: center;
+    background-color:#F3D5C0;
+    width: 100%;
+    padding: 10px;
+    position: fixed;
+}
+
+h2{
+    background-color: #2e2d2d99;
+  text-align: center;
+  margin-top: 80px;
+  color: #889eaf83;
+  font-size: 50px;
+  font-style: oblique;
+}
+
+h3{
+    color:#F3D5C0;
+  font-size: 20px;
+  background-color: #2e2d2d99;
+  font-family: 'Shippori Antique B1', sans-serif;
+  padding: 60px;
+  list-style: none;
+  text-align: center;
+}
+
+.main-center{
+    text-align: center;
+}
+.video{ 
+    margin: 60px auto;
+}
+
+#resumo{
+    padding: 100px;
+  text-align: center;
+  font-family: 'Shippori Antique B1', sans-serif;
+  font-size: 22px;
+  margin-top: 2px;
+  background-color: #2e2d2d99;
+  color: #ffffff;
+
+}
+
+#rodape{
+    position: relative;
+  margin-left: 20px;
+  display: flex;
+  margin-left: 45%;
+  flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+.youtube img {
+    margin-top: 30px;
+    height: 80px;
+    width: 80px;
+}
+
+
+.instagram img {
+    margin-top: 30px;
+    height: 80px;
+    width: 80px;
+}
+
+
+
+.viagem{
+    color: #ffffff;
+    text-align: center;
+    padding: 12px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-left: 2%;
+}
