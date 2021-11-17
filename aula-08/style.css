@@ -1,0 +1,65 @@
+*{
+
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+
+}
+
+
+
+
+.square {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 12px;
+}
+
+
+.first-square{
+    background-color: salmon;
+    position: absolute;
+   
+}
+
+
+.second-square{
+    background-color: skyblue;
+    position: absolute;
+    right: 0;
+
+}
+
+
+.third-square{
+    background-color: teal;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1
+
+}
+
+.caixa {
+
+    width: 200px;
+    height: 200px;
+    background-color: rgb(212, 19, 19);
+    padding: 24px;
+    z-index: 1;
+    position: absolute;
+
+}
+
+.caixa-interna {
+
+z-index: 0;
+    background-color: rgb(177, 135, 235);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1
+
+}
