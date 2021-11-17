@@ -1,0 +1,173 @@
+<!-- OK OK OK -->
+
+<!-- Selecione uma marca/logo da internet e coloque no seu site.
+Opcionalmente, você pode arredondar as bordas com border-radius.
+Seu formulário deve ter:
+Um input.
+Um textarea.
+Um select com options.
+Botões de reset e submit.
+Não se esqueça de personalizar o fundo do seu site com algo bacana da sua escolha!
+ -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="main-header">
+ 
+        <nav>
+            <ul>
+                <li>
+                    <a href="http://">
+                        <img src="../aula-09/Zero Onze Turismo nº 003 arte final.png" alt="">
+                    </a>
+                </li>
+    
+                <li>
+                    <a href="http://"  class="active">Home</a>
+                </li>
+                <li>
+                    <a href="http://">Promoções</a>
+                </li>
+                <li>
+                    <a href="http://">Cadastros</a>
+                </li>
+                <li>
+                    <a href="http://">Sobre</a>
+                </li>
+    
+    
+    
+    
+            </ul>
+        </nav>
+    
+    </header>
+    
+ 
+
+    <main>
+        
+        <form>
+
+            <h1>Cadastro João Rock 2022</h1>
+
+            <fieldset>
+                <legend>Dados pessoais</legend>
+
+                <div>
+                    <label for="username">Nome completo</label>
+                    <input type="text" name="username" id="username" placeholder="nome da gata">
+                </div>
+                
+                <div>
+                    <label for="birthDate">Data de Nascimento</label>
+                    <input type="date" name="birthDate" id="birthDate">
+                </div>
+    
+                <div>
+                    <label for="userEmail">Email</label>
+                    <input type="email" name="userEmail"  id="userEmail">
+                </div>
+    
+    
+                <div>
+                    <label for="userPassword">Senha</label>
+                    <input type="password" name="userPassword" id="userPassword">
+                </div>
+    
+    
+                <div>
+                    <label for="userObservacao">Observação</label>
+                    <textarea name="userObservacao" id="userObservacao"></textarea>
+                </div>
+               
+    
+                <div>
+                    <label for="userPacote">Pacote</label>
+                    <select name="userPacote" id="userPacote">
+                        <option value="1"> Pista Meia</option>
+                        <option value="2"> Pista Soliário</option>
+                        <option value="3"> Pista Premium</option>
+                    </select>
+                </div>
+            </fieldset>
+            
+
+            <fieldset>
+                <legend>Pagamento</legend>
+
+
+                <div>                
+                    <label for="credit"> Crédito </label>
+                    <input type="radio" name= "payment" id="credit"> 
+    
+                    <label for="debit"> Débito </label>
+                    <input type="radio" name= "payment" id="debit"> 
+    
+                    <label for="bill"> Boleto </label>
+                    <input type="radio" name= "payment" id="bill"> 
+                </div>
+    
+    
+                <div>
+                    <label for="datePagament">Data de Pagamento</label>
+                    <input type="date" name="datePagament" id="datePagament" min="2021-11-16" max="2021-11-30">
+                </div>
+            </fieldset>
+
+
+            <fieldset>
+                <legend>Locais de saída</legend>
+
+
+                <div>
+                    <input type="radio" name="exit" id="Mogi" checked>
+                    <label for="Mogi">Mogi das Cruzes</label>
+    
+                    <input type="radio" name="exit" id="GRU">
+                    <label for="GRU">Guarulhos</label>
+    
+                    <input type="radio" name="exit" id="BF">
+                    <label for="BF">Barra Funda</label>
+                </div>
+            </fieldset>
+
+
+
+            <div>
+                <h2>Contratar mais festivais</h2>
+
+                <input type="checkbox" name="adicionar" id="FFLC">
+                <label for="FFLC">FFLC</label>
+
+                <input type="checkbox" name="adicionar" id="STL">
+                <label for="STL">STL Festival</label>
+            </div>
+
+
+
+            
+
+
+            <button type="reset">Limpar</button>
+            <button type="submit">Cadastrar</button>
+
+
+        </form>
+
+
+
+    </main>
+</body>
+</html>
