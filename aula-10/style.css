@@ -5,13 +5,11 @@
 }
 
 
-body { 
-    background-image: url(../aula-10/01.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+body{
+    background-image: url(https://st.depositphotos.com/1484771/4898/v/600/depositphotos_48983851-stock-illustration-background-with-vintage-stamps.jpg);
 
+ 
 }
-
 
 .main-header{
     background-color:#0b4983b4;
@@ -37,6 +35,10 @@ body {
 
 }
 
+.main-header a img{
+    width: 40px;
+    margin-right: 32px;
+}
 
 .main-header li a{
     color: #ffffff ;
@@ -50,6 +52,8 @@ body {
 h1{
     padding-top: 90px;
     padding-bottom: 8px;
+    background-color:#e6e4ddb4;
+
 
 }
 
@@ -58,6 +62,7 @@ h1{
 fieldset{
     border: none;
     margin-bottom: 24px;
+
     
 }
 
@@ -68,8 +73,11 @@ legend{
     margin-bottom: 4px;
     color:cornflowerblue;
     font-family: 'Tahoma', sans-serif;
+    
 
 }
 
-
+form{
+    background-color:#e6e4ddb4;
+}
 

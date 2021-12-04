@@ -1,0 +1,151 @@
+
+
+<!-- Pesquise no Google todo tipo de doce que nosso cliente poderia oferecer a seus clientes e coloque como opção de venda. -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styleExerc.css">
+</head>
+<body>
+    
+    <h1>Doceria Google</h1>
+
+    <h3>Aqui você encontra tudo que buscar!</h3>
+ 
+
+    <main>
+        
+        <form class="editGeral">
+
+
+
+            <fieldset >
+                <legend>Dados pessoais</legend>
+
+                <div >
+                    <label for="username">Nome completo</label>
+                    <input type="text" name="username" id="username"  class="custom-input">
+                </div>
+    
+                <div>
+                    <label for="userEmail">Email</label>
+                    <input type="email" name="userEmail"  id="userEmail" class="custom-input"> 
+                </div>
+    
+    
+                <div>
+                    <label for="userAdress">Endereço</label>
+                    <input type="Adress" name="userAdress" id="userAdress"
+                    placeholder="Endereço de entrega" class="custom-input">
+                </div>
+    
+    
+                <div>
+                    <label for="userObservacao">Observação</label>
+                    <textarea name="userObservacao" id="userObservacao"></textarea>
+                </div>
+               
+    
+                <div>
+                    <label for="userPacote">Pacote</label>
+                    <select name="userPacote" id="userPacote" class="custom-input">
+                        <option value="1"> Pista Meia</option>
+                        <option value="2"> Pista Soliário</option>
+                        <option value="3"> Pista Premium</option>
+                    </select>
+                </div>
+            </fieldset>
+            
+
+            <fieldset>
+                <legend>Doces</legend>
+
+                
+            <div>
+                
+
+                <input type="checkbox" name="adicionar" id="FFLC">
+                <label for="FFLC">Sonho</label>
+
+                <input type="checkbox" name="adicionar" id="STL">
+                <label for="STL">Brigadeiro</label>
+
+                <input type="checkbox" name="adicionar" id="STL">
+                <label for="STL">Bolo</label>
+
+                <input type="checkbox" name="adicionar" id="STL">
+                <label for="STL">Churros</label>
+            </div>
+
+            </fieldset>
+
+
+
+            <fieldset>
+                <legend>Recheio</legend>
+
+
+                <div>
+                    <input type="radio" name="exit" id="Mogi" checked>
+                    <label for="Mogi">Leite ninho</label>
+    
+                    <input type="radio" name="exit" id="GRU">
+                    <label for="GRU">Brigadeiro</label>
+    
+                    <input type="radio" name="exit" id="BF">
+                    <label for="BF">Doce de leite</label>
+                </div>
+
+                <div>
+                    <label for="dateDelivery">Data de Entrega</label>
+                    <input type="date" name="dateDelivery" id="dateDelivery" min="2021-11-16" max="2021-12-16" class="custom-input">
+                </div>
+
+                
+            </fieldset>
+
+
+
+            <fieldset>
+                <legend>Pagamento</legend>
+
+
+                <div>                
+                    <label for="credit"> Crédito </label>
+                    <input type="radio" name= "payment" id="credit"> 
+    
+                    <label for="debit"> Débito </label>
+                    <input type="radio" name= "payment" id="debit"> 
+    
+                    <label for="bill"> Boleto </label>
+                    <input type="radio" name= "payment" id="bill"> 
+                </div>
+    
+    
+                <div>
+                    <label for="datePagament">Data de Pagamento</label>
+                    <input type="date" name="datePagament" id="datePagament" min="2021-11-16" max="2021-11-30" class="custom-input">
+                </div>
+            </fieldset>
+
+            
+
+
+            <button type="reset">Limpar</button>
+            <button type="submit">Cadastrar</button>
+
+
+        </form>
+
+
+        
+
+    </main>
+</body>
+</html>
