@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Estonia&family=Open+Sans:wght@300;400;700&family=Poppins:wght@200;300;400&family=Roboto:wght@100;300;500;700&family=Shippori+Antique+B1&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+body{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-areas:
+    'main-header main-header'
+    'main-aside main-content'
+    'main-footer main-footer'
+    ;
+
+}
+
+
+header{
+    background-color: #D47AE8;
+    grid-area: main-header; 
+    height: 50px;  
+    text-align: center;
+    font-family:  'Roboto', sans-serif;
+    
+   
+
+
+}
+
+
+.img-header{
+    text-align: center;
+
+}
+
+aside{
+    background-color: #F4BEEE;
+    grid-area: main-aside;
+    font-family:'Poppins', Open Sans; 
+    
+
+
+}
+
+
+main{
+    background-color: #A8ECE7;
+    grid-area: main-content;
+    height: 500px;
+    font-family:'Poppins', Open Sans; 
+
+
+
+}
+
+
+.img-main{
+    text-align: center;
+    
+}
+
+
+footer{
+    background-color: #FDFF8F;
+    grid-area: main-footer;
+    height: 50px; 
+    font-family:'Poppins', Open Sans; 
+
+
+}
+
+
+
+main iframe{
+    width: 1000px;
+    height: 500px;
+}
+
+
+
+
+
+@media (max-width: 800px){
+    body{
+        grid-template-columns: 100%;
+    grid-template-areas:
+    'main-header'
+    'main-aside'
+    'main-content'
+    'main-footer'
+    ;
+
+    }
+
+    main iframe{
+        width: 50%;
+        height: 50%;
+        
+    }
+
+
+    .img-main{
+        flex-direction: row;
+    }
+}
+
+
+
